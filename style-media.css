@@ -1,0 +1,131 @@
+@media screen and (max-width: 375px) {
+    .over-view {
+        background: none;
+        left: 4px;
+        width: 343px;
+    }
+
+    .over-view .pre-face {
+        left: 4px;
+        top: 96px;
+        padding: 0 0;
+        width: 343px;
+    }
+
+    .over-view .pre-face .bio {
+        width: 300px;
+    }
+
+    .over-view .pre-face .img-res {
+        display: block;
+        margin-top: 90px;
+        width: 343px;
+        height: 387px;
+    }
+
+    .over-view .pre-face p {
+        margin-bottom: 11px;
+        margin-top: 7px;
+        font-size: 20px;
+
+    }
+
+    .over-view .pre-face h2 {
+        font-size: 38px;
+    }
+
+    .over-view .pre-face .contact {
+        margin-left: 25px;
+        width: 300px;
+    }
+
+    .over-view .pre-face .contact input {
+        padding: 8px 27px;
+    }
+
+    .over-view .pre-face .contact #contact{
+        background-color: #fff;
+    }
+
+    .about-me {
+        margin-top: 8em;
+        width: 343px;
+        margin-left: 10px;
+        flex-direction: column;
+    }
+
+    .about-me .my-img img {
+        width: 343px;
+    }
+
+    .about-me .for-me h1 {
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 13px;
+    }
+
+    .about-me .for-me p {
+        font-size: 13px;
+    }
+
+    .interest {
+        width: 343px;
+    }
+
+    .interest .sub-int {
+        flex-direction: column;
+        margin: 0 33px;
+    }
+
+    hr {
+        width: 275px;
+    }
+
+    .interest h1 {
+        font-size: 28px;
+    }
+
+    .interest .sub-int .content .sub-cont h2 {
+        font-size: 18px;
+    }
+
+    .interest .sub-int .content .sub-cont P {
+        font-size: 12px;
+    }
+
+    .interest img{
+        width: 343px;
+        margin-top: -68px;
+        margin-left: -27px;
+        margin-bottom: 20px;
+    }
+
+    .blog .sub-blog{
+        flex-direction: column;
+        width: 343px;
+
+    }
+
+    .blog .sub-blog #blog img{
+        width: 300px;
+    }
+
+    .blog .sub-blog #blog{
+        width: 329px;
+        margin-left: 12px;
+    }
+
+    .posts h1{
+        width: 343px;
+        margin-bottom: 42px;
+        margin-top: 50px;
+        font-size: 26px;
+    }
+
+    .posts img{
+        width: 330px;
+        margin-left: 10px;
+    }
+
+
+}

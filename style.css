@@ -1,0 +1,279 @@
+body {
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+    font-family: Playfair Display;
+    font-style: normal;
+    line-height: normal;
+
+}
+
+.over-view {
+
+
+    background-image: url('/suraj/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 707px;
+
+}
+
+.over-view .pre-face {
+    position: absolute;
+    left: 7rem;
+    padding: 234px 48px;
+    background: rgba(255, 255, 255, 0.80);
+    width: 416px;
+
+}
+
+.over-view .pre-face .img-res{
+    display: none;
+}
+
+.over-view .pre-face p {
+    color:#4F4F4F;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+
+.over-view .pre-face h2 {
+    color:#02556D;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin: 0;
+    cursor: pointer;
+
+}
+
+
+.over-view .pre-face .bio {
+    margin-left: 22px;
+    margin-top: -24px;
+}
+
+.over-view .pre-face .contact {
+    margin-left: 24px;
+}
+
+.over-view .pre-face .contact input {
+    padding: 10px 42px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.over-view .pre-face .contact #contact {
+    color: #30C8D6;
+    border: 2px solid #30C8D6;
+
+}
+
+.over-view .pre-face .contact #cv {
+    color: #fff;
+    border: 2px solid #30C8D6;
+    background-color: #30C8D6;
+    margin-left: 9px;
+}
+
+.about-me {
+    display: flex;
+    margin: 55px 155px;
+    gap: 55px;
+}
+
+
+
+.for-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-me .for-me h1 {
+    color: #02556D;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.about-me .for-me p {
+    color: #828282;
+    font-family: Lato;
+    font-size: 16px;
+
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.interest h1 {
+
+    color: #02556D;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
+
+.interest .sub-int {
+    display: flex;
+    margin: 48px 187px;
+    gap: 111px;
+}
+
+.interest .sub-int .content .sub-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+hr {
+    color: #BDBDBD;
+    margin: 0;
+    width: 383px;
+    opacity: 0.6;
+}
+
+.interest .sub-int .content .sub-cont h2 {
+    margin-bottom: 0;
+    color: #4F4F4F;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.interest .sub-int .content .sub-cont P {
+    color: #4F4F4F;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+
+.interest .sub-int .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.blog h1 {
+    color: #02556D;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.blog .sub-blog {
+    display: flex;
+    justify-content: center;
+    gap: 19px;
+}
+
+
+.blog .sub-blog #blog {
+    width: 357px;
+    margin-left: 8px;
+    border: 1px solid #E0E0E0;
+    border-radius: 15px;
+    height: 518px;
+}
+
+.blog .sub-blog #blog h2 {
+    color: #02556D;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    cursor: pointer;
+}
+
+.blog .sub-blog #blog h3 {
+    color: #4F4F4F;
+    font-family: Lato;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 700;
+    line-height: 32px;
+
+}
+
+.blog .sub-blog #blog p {
+    color: #828282;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.blog .sub-blog #blog a {
+    color: #30C8D6;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.blog .btn {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.blog .sub-blog #blog img {
+    margin: 11px 15px;
+}
+
+.blog .sub-blog #blog .blog-types {
+    margin: -15px 18px;
+}
+
+.blog .btn {
+    color: #30C8D6;
+    padding: 12px 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #30C8D6;
+    cursor: pointer;
+}
+
+.blog #btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 39px;
+
+}
+
+.posts {
+
+    text-align: center;
+}
+
+.posts h1 {
+    color: #02556D;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    margin-top: 80px;
+    
+}
+
+.posts img{
+    margin-bottom: 80px;
+}
